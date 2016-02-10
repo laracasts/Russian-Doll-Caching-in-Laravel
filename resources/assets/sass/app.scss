@@ -1,0 +1,19 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Card {
+    background: #ddd;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 20px;
+    flex-basis: 30%;
+
+    > h2 {
+        margin-top: 0;
+
+    }
+}
+

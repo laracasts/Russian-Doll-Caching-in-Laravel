@@ -1,0 +1,23 @@
+.cards {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.Card {
+  background: #ddd;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 20px;
+  -webkit-flex-basis: 30%;
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 30%; }
+  .Card > h2 {
+    margin-top: 0; }
+
+/*# sourceMappingURL=app.css.map */
